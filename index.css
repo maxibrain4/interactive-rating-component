@@ -15,25 +15,108 @@
   background-color: hsl(216, 12%, 8%);
 }
 .container {
-  width: 500px;
-  border: 1px solid red;
+  width: 400px;
   color: #fff;
   background-color: hsl(213, 19%, 18%);
-  padding: 10px;
+  padding: 30px;
   font-family: "Overpass", sans-serif;
+  border-radius: 20px;
 }
 .primary-heading {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .image-box {
-  border-radius: 10px;
-  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: hsl(218, 13%, 24%);
+  margin-bottom: 25px;
 }
 .card-description {
   color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-bottom: 25px;
 }
 .rating-box {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 25px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: hsl(218, 13%, 24%);
+}
+.rating:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: all 0.3s;
+}
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/* Thank you box */
+
+.second-img-box {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-update {
+  background-color: hsl(218, 13%, 24%);
+  color: hsl(25, 97%, 53%);
+  width: 200px;
+  padding: 5px 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.card-description2 {
+  text-align: center;
+  line-height: 1.5;
+}
+.bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  text-align: center;
+}
+/* media query */
+@media (max-width: 425px) {
+  .section-body {
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+  }
 }
