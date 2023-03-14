@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hidden {
+  display: none;
+}
+.section-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsl(216, 12%, 8%);
+}
+.container {
+  width: 500px;
+  border: 1px solid red;
+  color: #fff;
+  background-color: hsl(213, 19%, 18%);
+  padding: 10px;
+  font-family: "Overpass", sans-serif;
+}
+.primary-heading {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.image-box {
+  border-radius: 10px;
+  background-color: ;
+}
+.card-description {
+  color: hsl(217, 12%, 63%);
+}
+.rating-box {
+  display: flex;
+  justify-content: space-between;
+}
