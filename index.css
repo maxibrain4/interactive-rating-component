@@ -134,4 +134,7 @@
   .container {
     width: 90%;
   }
+  .container--y {
+    width: 90%;
+  }
 }
