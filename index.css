@@ -41,6 +41,7 @@
   color: hsl(217, 12%, 63%);
   font-size: 15px;
   margin-bottom: 25px;
+  line-height: 1.5;
 }
 .rating-box {
   display: flex;
