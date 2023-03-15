@@ -55,10 +55,13 @@
   height: 50px;
   border-radius: 100%;
   background-color: hsl(218, 13%, 24%);
+  border: none;
+  color: hsl(217, 12%, 63%);
 }
 .rating:hover {
   background-color: hsl(25, 97%, 53%);
   transition: all 0.3s;
+  color: #fff;
 }
 .btn {
   background-color: hsl(25, 97%, 53%);
@@ -81,6 +84,14 @@
 }
 
 /* Thank you box */
+.container--y {
+  width: 400px;
+  color: #fff;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  font-family: "Overpass", sans-serif;
+  border-radius: 20px;
+}
 
 .second-img-box {
   margin-bottom: 25px;
@@ -110,6 +121,10 @@
 }
 .head {
   text-align: center;
+}
+.colorbtn {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
 }
 /* media query */
 @media (max-width: 425px) {
